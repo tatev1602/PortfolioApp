@@ -201,3 +201,27 @@ body {
 .card6 {
   grid-area: card6;
 }
+
+/* slider buttons start from here */
+.slider-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 0;
+}
+.slider-buttons > * {
+  font-family: MyFont-Regular;
+}
+.count {
+  padding: 10px 16px;
+}
+.arrows {
+  padding: 10px 16px;
+  font-size: 12px;
+}
+.slider-buttons > *:hover {
+  cursor: pointer;
+  background: #101010;
+  color: #ffffff;
+  transition: 0.2s;
+}
