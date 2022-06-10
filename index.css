@@ -291,3 +291,113 @@ body {
   background: #929191;
   width: 100%;
 }
+/*download button*/
+.download {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  background: grey;
+  margin-top: 60px;
+  border: none;
+  color: white;
+}
+
+.download:hover {
+  background: rgb(201, 200, 200);
+  color: black;
+  fill: #000;
+  cursor: pointer;
+}
+
+/* block styles start from here*/
+.text {
+  font-family: MyFont-Bold;
+  color: #262626;
+  margin-top: 25px;
+}
+.blocks > ul {
+  height: 550px;
+  width: 400px;
+  border: 0.5px solid grey;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.blocks {
+  display: flex;
+  gap: 20px;
+  font-family: MyFont-Regular;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.block1 > li {
+  padding: 12px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.block1 > :first-child {
+  background: black;
+  text-align: center;
+  color: white;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.block1,
+.block2,
+.block3 {
+  opacity: 0.6;
+}
+
+.block1:hover,
+.block2:hover,
+.block3:hover {
+  opacity: 1;
+}
+
+.block2 > li {
+  padding: 12px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.block2 > :first-child {
+  background: #009688;
+  text-align: center;
+  color: white;
+  padding: 30px;
+  font-size: 20px;
+}
+.block3 > li {
+  padding: 12px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.block3 > :first-child {
+  background: black;
+  text-align: center;
+  color: white;
+  padding: 30px;
+  font-size: 20px;
+}
+.signin {
+  padding: 15px 35px;
+  background: #009688;
+  border: none;
+  color: #ffffff;
+}
+
+.signin:hover {
+  background: #000;
+}
+.signin:hover {
+  background: #000;
+  cursor: pointer;
+  transition: 02 sec;
+  color: #fff;
+}
