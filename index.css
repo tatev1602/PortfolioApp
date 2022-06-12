@@ -315,15 +315,6 @@ body {
   color: #262626;
   margin-top: 25px;
 }
-.blocks > ul {
-  height: 550px;
-  width: 400px;
-  border: 0.5px solid grey;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 .blocks {
   display: flex;
   gap: 20px;
@@ -331,14 +322,21 @@ body {
   font-size: 16px;
   margin-top: 15px;
   margin-bottom: 15px;
+  width: 100%;
 }
-
+.blocks > ul {
+  height: 550px;
+  flex: 1;
+  border: 0.5px solid grey;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 .block1 > li {
   padding: 12px;
   background: #ffffff;
   text-align: center;
 }
-
 .block1 > :first-child {
   background: black;
   text-align: center;
